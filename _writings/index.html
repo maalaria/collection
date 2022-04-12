@@ -25,7 +25,7 @@ title: Writings
 {% for post in site.writings %}
   {% if post.category == "writings" %}
     {% if post.tag == "politics" %}
-      <a class="post" href="#" onclick=“window.open(‘https://maalaria.github.io/collection‘.concat(‘{{ post.url }}’), ‘_self’);”>{{ post.url }}</a><br>
+      <a class="post" href="{{ post.url }}" onclick=“window.open(‘https://maalaria.github.io/collection‘.concat(‘{{ post.url }}’), ‘_self’);”>{{ post.title }}</a><br>
     {% endif %}
   {% endif %}
 {% endfor %}
