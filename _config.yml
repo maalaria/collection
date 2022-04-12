@@ -40,3 +40,5 @@ collections:
 
   me:
     output: true
+
+theme: jekyll-theme-minimal
