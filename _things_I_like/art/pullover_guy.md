@@ -11,3 +11,4 @@ published: true
 # Guy who makes pullovers of places and wears them in front
 
 ![Guy](http://i.imgur.com/hYYF4hA.jpg | width=4)
+[[http://i.imgur.com/hYYF4hA.jpg|alt=octocat]]
