@@ -25,7 +25,7 @@ title: Things I like
 {% for post in site.things_I_like %}
   {% if post.category == "things_I_like" %}
     {% if post.tag == "art" %}
-      <a class="post" href="{{ post.url }}">{{ post.title }}</a><br>
+      <a class="post" href="{{ post._url }}">{{ post.title }}</a><br>
     {% endif %}
   {% endif %}
 {% endfor %}

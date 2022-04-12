@@ -5,7 +5,7 @@ layout: good_clean_default
 category: writings
 tag: politics  
 status: unfinished
-published: true
+published: false
 ---
 # Begründung des Nichtwählens
 
