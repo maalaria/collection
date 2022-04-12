@@ -1,0 +1,155 @@
+body {
+  font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
+  background: white;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffb5b5;
+  text-decoration: none;
+}
+
+
+p.one {
+  font-size: 15px;
+  font-weight: normal;
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+p.two {
+  font-size: 30px;
+  font-weight: normal;
+  text-align: left;
+  line-height: 0.01;
+  padding-top: 20px;
+  margin: 3px;
+}
+
+p.three {
+  font-size: 60px;
+  font-weight: normal;
+  text-align: left;
+  line-height: 0.01;
+  padding-top: 30px;
+  margin: 10px;
+}
+
+p.four {
+  font-size: 120px;
+  font-weight: normal;
+  text-align: left;
+  line-height: 0.01;
+  padding-top: 50px;
+  margin: 17px;
+}
+
+p.five {
+  font-size: 240px;
+  font-weight: normal;
+  text-align: left;
+  line-height: 0.01;
+  padding-top: 60px;
+  margin: 35px;
+}
+
+p.six {
+  font-size: 480px;
+  font-weight: normal;
+  text-align: left;
+  line-height: 0.001;
+  padding-top: 150px;
+  padding-bottom: 68px;
+  margin: 68px;
+}
+
+
+main {
+  width: 1024px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+wrap {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+content {
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+header {
+  padding: 0 10px;
+  overflow: hidden;
+}
+h1 {
+  margin: 30;
+  text-align: center;
+  line-height: 0.1;
+  font-size: 90px;
+  font-weight: bold;
+}
+h3 {
+  color: #000000;
+}
+
+
+nav ul, ul.entries {
+  list-style-type: none;
+}
+nav li a {
+  float: left;
+  margin: 5px;
+}
+.content {
+  padding: 10px;
+}
+
+ul.entries li {
+  position: relative;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  width: 600px;
+}
+
+ul.entries img {
+  width: 600px;
+}
+
+ul.entries li h3 {
+  position: absolute;
+  bottom: -18px;
+  left: 17px;
+  font-size: 2em;
+}
+ul.entries a {
+  color: #00f000;
+}
+ul.entries a:hover {
+  color: #ffb5b5;
+  text-decoration: none;
+}
+
+footer {
+  font-size: 0.65em;
+  text-align: center;
+}

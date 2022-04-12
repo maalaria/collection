@@ -1,0 +1,32 @@
+---
+layout: good_clean_default
+title: Things I like
+---
+<head>
+  <meta charset=utf-8 />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<title>Things I like</title>
+</head>
+
+<a class="home" href="/">Home</a>
+<br>
+<br>
+<br>
+<br>
+
+<section class="content">
+  <h1>Things I like</h1>
+</section>
+
+
+<h3>Art</h3>
+{% for post in site.things_I_like %}
+  {% if post.category == "things_I_like" %}
+    {% if post.tag == "art" %}
+      <a class="post" href="{{ post.url }}">{{ post.title }}</a><br>
+    {% endif %}
+  {% endif %}
+{% endfor %}
