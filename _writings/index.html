@@ -26,7 +26,7 @@ title: Writings
 {% for post in site.writings %}
   {% if post.category == "writings" %}
     {% if post.tag == "politics" %}
-      <a class="post" href="{{ post.abs_url }}" onclick=“window.open(‘{{ post.abs_url }}’, ‘_self’);”>{{ post.title }}</a><br>
+      <a class="post" href="{{ post._url }}" onclick=“window.open(‘{{ post._url }}’, ‘_self’);”>{{ post.title }}</a><br>
     {% endif %}
   {% endif %}
 {% endfor %}

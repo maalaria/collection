@@ -1,6 +1,6 @@
 ---
 title: Begründung des Nichtwählens
-abs_url: https://maalaria.github.io/collection/writings/politics/begruendung-des-nicht-waehlens.md
+_url: https://maalaria.github.io/collection/writings/politics/begruendung-des-nicht-waehlens.html
 layout: good_clean_default
 category: writings
 tag: politics  
