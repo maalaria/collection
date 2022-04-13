@@ -3,7 +3,7 @@ title: Effective resign
 layout: good_clean_default
 category: projects
 tag: software
-published: false
+published: true
 ---
 
 # Konzept
