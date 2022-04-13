@@ -21,6 +21,15 @@ title: Writings
 </section>
 
 
+<h3>Lit</h3>
+{% for post in site.writings %}
+  {% if post.category == "writings" %}
+    {% if post.tag == "lit" %}
+      <a class="post" href="{{ post._url }}" onclick=“window.open(‘{{ post._url }}’, ‘_self’);”>{{ post.title }}</a><br>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
 
 <h3>Politics</h3>
 {% for post in site.writings %}
@@ -31,7 +40,7 @@ title: Writings
   {% endif %}
 {% endfor %}
 
-<h3>Politics</h3>
+<h3>Art</h3>
 {% for post in site.writings %}
   {% if post.category == "writings" %}
     {% if post.tag == "art" %}
@@ -40,16 +49,9 @@ title: Writings
   {% endif %}
 {% endfor %}
 
-<h3>Politics</h3>
-{% for post in site.writings %}
-  {% if post.category == "writings" %}
-    {% if post.tag == "lit" %}
-      <a class="post" href="{{ post._url }}" onclick=“window.open(‘{{ post._url }}’, ‘_self’);”>{{ post.title }}</a><br>
-    {% endif %}
-  {% endif %}
-{% endfor %}
 
-<h3>Politics</h3>
+
+<h3>Miscellaneous</h3>
 {% for post in site.writings %}
   {% if post.category == "writings" %}
     {% if post.tag == "miscellaneous" %}
@@ -58,7 +60,7 @@ title: Writings
   {% endif %}
 {% endfor %}
 
-<h3>Politics</h3>
+<h3>Neuroscience</h3>
 {% for post in site.writings %}
   {% if post.category == "writings" %}
     {% if post.tag == "neuroscience" %}
@@ -67,7 +69,7 @@ title: Writings
   {% endif %}
 {% endfor %}
 
-<h3>Politics</h3>
+<h3>Philosophy</h3>
 {% for post in site.writings %}
   {% if post.category == "writings" %}
     {% if post.tag == "philosophy" %}
@@ -76,7 +78,7 @@ title: Writings
   {% endif %}
 {% endfor %}
 
-<h3>Politics</h3>
+<h3>EvoEco</h3>
 {% for post in site.writings %}
   {% if post.category == "writings" %}
     {% if post.tag == "evoeco" %}
@@ -85,7 +87,8 @@ title: Writings
   {% endif %}
 {% endfor %}
 
-<h3>Politics</h3>
+<!--
+<h3>System and information</h3>
 {% for post in site.writings %}
   {% if post.category == "writings" %}
     {% if post.tag == "system_and_information" %}
@@ -93,3 +96,4 @@ title: Writings
     {% endif %}
   {% endif %}
 {% endfor %}
+-->
