@@ -31,67 +31,65 @@ title: Writings
   {% endif %}
 {% endfor %}
 
-<!--
-<h3>Art</h3>
+<h3>Politics</h3>
 {% for post in site.writings %}
   {% if post.category == "writings" %}
     {% if post.tag == "art" %}
-      <a class="post" href="{{ post.url }}">{{ post.title }}</a><br>
+      <a class="post" href="{{ post._url }}" onclick=“window.open(‘{{ post._url }}’, ‘_self’);”>{{ post.title }}</a><br>
     {% endif %}
   {% endif %}
 {% endfor %}
 
-<h3>Evolution and Ecology</h3>
+<h3>Politics</h3>
 {% for post in site.writings %}
   {% if post.category == "writings" %}
-    {% if post.tag == "evoeco" %}
-      <a class="post" href="{{ post.url }}">{{ post.title }}</a><br>
+    {% if post.tag == "lit" %}
+      <a class="post" href="{{ post._url }}" onclick=“window.open(‘{{ post._url }}’, ‘_self’);”>{{ post.title }}</a><br>
     {% endif %}
   {% endif %}
 {% endfor %}
 
-<h3>Fiction</h3>
-{% for post in site.writings %}
-  {% if post.category == "writings" %}
-    {% if post.tag == "fiction" %}
-      <a class="post" href="{{ post.url }}">{{ post.title }}</a><br>
-    {% endif %}
-  {% endif %}
-{% endfor %}
-
-<h3>Miscellaneous</h3>
+<h3>Politics</h3>
 {% for post in site.writings %}
   {% if post.category == "writings" %}
     {% if post.tag == "miscellaneous" %}
-      <a class="post" href="{{ post.url }}">{{ post.title }}</a><br>
+      <a class="post" href="{{ post._url }}" onclick=“window.open(‘{{ post._url }}’, ‘_self’);”>{{ post.title }}</a><br>
     {% endif %}
   {% endif %}
 {% endfor %}
 
-<h3>Neuroscience</h3>
+<h3>Politics</h3>
 {% for post in site.writings %}
   {% if post.category == "writings" %}
     {% if post.tag == "neuroscience" %}
-      <a class="post" href="{{ post.url }}">{{ post.title }}</a><br>
+      <a class="post" href="{{ post._url }}" onclick=“window.open(‘{{ post._url }}’, ‘_self’);”>{{ post.title }}</a><br>
     {% endif %}
   {% endif %}
 {% endfor %}
 
-<h3>Philosophy</h3>
+<h3>Politics</h3>
 {% for post in site.writings %}
   {% if post.category == "writings" %}
     {% if post.tag == "philosophy" %}
-      <a class="post" href="{{ post.url }}">{{ post.title }}</a><br>
+      <a class="post" href="{{ post._url }}" onclick=“window.open(‘{{ post._url }}’, ‘_self’);”>{{ post.title }}</a><br>
     {% endif %}
   {% endif %}
 {% endfor %}
 
-<h3>System and Informatio</h3>
+<h3>Politics</h3>
 {% for post in site.writings %}
   {% if post.category == "writings" %}
-    {% if post.tag == "system_and_information" %}
-      <a class="post" href="{{ post.url }}">{{ post.title }}</a><br>
+    {% if post.tag == "evoeco" %}
+      <a class="post" href="{{ post._url }}" onclick=“window.open(‘{{ post._url }}’, ‘_self’);”>{{ post.title }}</a><br>
     {% endif %}
   {% endif %}
 {% endfor %}
--->
+
+<h3>Politics</h3>
+{% for post in site.writings %}
+  {% if post.category == "writings" %}
+    {% if post.tag == "system_and_information" %}
+      <a class="post" href="{{ post._url }}" onclick=“window.open(‘{{ post._url }}’, ‘_self’);”>{{ post.title }}</a><br>
+    {% endif %}
+  {% endif %}
+{% endfor %}
