@@ -17,11 +17,9 @@ title: Writings
 <br>
 
 <section class="content">
-  <h1>Test</h1>
+  <h1>Writings</h1>
 </section>
 
-
-writings
 
 <h3>Lit</h3>
 {% for post in site.writings %}
@@ -43,7 +41,7 @@ writings
 {% endfor %}
 
 <h3>Art</h3>
-{% for post in writings %}
+{% for post in site.writings %}
   {% if post.category == "writings" %}
     {% if post.tag == "art" %}
       <a class="post" href="{{ post._url }}" onclick=“window.open(‘{{ post._url }}’, ‘_self’);”>{{ post.title }}</a><br>
