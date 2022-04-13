@@ -41,14 +41,14 @@ title: Writings
 {% endfor %}
 
 <h3>Art</h3>
-{% for post in site.writings %}
+<!--{% for post in site.writings %}-->
+{% for post in "art/" %}
   {% if post.category == "writings" %}
     {% if post.tag == "art" %}
       <a class="post" href="{{ post._url }}" onclick=“window.open(‘{{ post._url }}’, ‘_self’);”>{{ post.title }}</a><br>
     {% endif %}
   {% endif %}
 {% endfor %}
-
 
 
 <h3>Miscellaneous</h3>
