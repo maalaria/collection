@@ -1,5 +1,6 @@
 ---
 title: Publications
+_url: https://maalaria.github.io/collection/Thier/publications.html
 layout: good_clean_default
 category: Thier
 tag: paper

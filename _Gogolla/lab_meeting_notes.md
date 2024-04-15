@@ -1,5 +1,6 @@
 ---
 title: Lab meeting notes
+_url: https://maalaria.github.io/collection/Gogolla/lab_meeting_notes.html
 layout: good_clean_default
 category: Gogolla
 tag: lab_meeting
