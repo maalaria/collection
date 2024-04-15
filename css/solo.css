@@ -27,10 +27,11 @@ html {
   font-style: italic, oblique;
 }*/
 
-
+/*that is the body of the subpages*/
 body {
-  font-family: "Times New Roman";
-  margin: 2rem 0 5rem;
+  font-family: "Cambria";
+  background: white;
+  padding: 200px;
   color: #222;
 }
 
