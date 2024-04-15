@@ -1,0 +1,44 @@
+---
+layout: good_clean_default
+title: Gogolla
+---
+<head>
+  <meta charset=utf-8 />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<title>Gogolla</title>
+</head>
+
+<a href="https://maalaria.github.io/collection/" onclick=“window.open(‘https://maalaria.github.io/collection/’, ‘_self’);”><<<</a>
+<br>
+<br>
+<br>
+
+<section class="content">
+  <h1>Gogolla</h1>
+</section>
+
+
+<h3>Lit</h3>
+{% for post in site.Gogolla %}
+  {% if post.category == "Gogolla" %}
+    {% if post.tag == "lit" %}
+      <a class="post" href="{{ post._url }}" onclick=“window.open(‘{{ post._url }}’, ‘_self’);”>{{ post.title }}</a><br>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+
+
+<!--
+<h3>System and information</h3>
+{% for post in site.writings %}
+  {% if post.category == "writings" %}
+    {% if post.tag == "system_and_information" %}
+      <a class="post" href="{{ post._url }}" onclick=“window.open(‘{{ post._url }}’, ‘_self’);”>{{ post.title }}</a><br>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+-->

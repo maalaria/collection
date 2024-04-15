@@ -1,0 +1,371 @@
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italc,400,400italic,500,700);
+html {
+  font: 18px/1.6 'Open Sans', sans-serif;
+}
+@media (max-width: 325px) {
+  html { font: 17px/1.6 'Open Sans', sans-serif; }
+}*/
+
+/*@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+}
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
+  font-style: italic, oblique;
+}
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
+  font-weight: bold;
+  font-style: italic, oblique;
+}*/
+
+
+body {
+  font-family: "Times New Roman";
+  margin: 2rem 0 5rem;
+  color: #222;
+}
+
+@media (min-width: 30rem) {
+  body {
+    margin-top: 5rem;
+  }
+}
+
+/**
+ * Design of Links
+ */
+a {
+  color: #0074d9; /* From http://clrs.cc */
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+a.post {
+  color: #000000; /* From http://clrs.cc */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px
+}
+
+a.post_unfinished {
+  color: #000000; /* From http://clrs.cc */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: right;
+}
+
+a.post:hover, a.post:focus {
+  color: #0000ff;
+  text-decoration: none;
+}
+a.collection {
+  color: #000000; /* From http://clrs.cc */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 23px
+}
+
+a.collection_unfinished {
+  color: #aaaaaa; /* From http://clrs.cc */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 23px
+}
+
+a.collection:hover, a.post:focus {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+
+
+/**
+ * Design of special text blocks
+ */
+p.example {
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align:left;
+  vertical-align: middle;
+  padding:10px 10px;
+}
+
+p.important {
+  background-color: rgba(200, 0, 0, 0.1);
+  text-align:left;
+  vertical-align: middle;
+  padding:10px 10px;
+}
+
+p.centered {
+  text-align: center;
+}
+
+
+#box
+{
+  height: 90px;
+  width: 270px;
+  background: #000;
+  font-size: 48px;
+  font-style: oblique;
+  color: #FFF;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+/**
+ * Design of headings
+ */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.5rem -0.1rem /* align left edge */;
+  color: #000;
+  text-rendering: optimizeLegibility;
+  font-family: 'Open Sans', serif;
+  line-height: 1.2
+}
+
+@media (max-width: 750px) {
+h1, h2, h3, h4, h5, h6 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+ }
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 7rem;
+  font-weight: 700;
+  margin-left: -2rem;
+  margin-right: -2rem;
+}
+
+@media (min-width: 30rem) {
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 10rem;
+  }
+}
+
+h1 a {
+  color: inherit;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-bottom: 5rem;
+  color: #000;
+  text-align: left;
+  margin-right: -4rem;
+}
+
+@media (min-width: 30rem) {
+  h2 {
+    margin-top: 2.5rem;
+    font-size: 1.75rem;
+    margin-bottom: 8rem;
+    margin-right: -4rem;
+  }
+}
+
+h3 {
+  margin: 2rem -2rem 1.75rem -2rem;
+  margin-top: 2rem;
+  font-size: 1.75rem;
+}
+
+@media (min-width: 30rem) {
+  h3 {
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+h4, h5, h6 {
+  margin: 1.5rem -1rem 1.5rem -1rem;
+  font-size: 1.5rem;
+}
+
+p, ul, ol, dl, table, pre, blockquote {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+dd {
+  margin-left: 1.5rem;
+}
+
+blockquote {
+  margin-left: 0.75rem;
+  margin-right: 0;
+  padding: 0rem 0.8rem;
+  border-left: .3rem solid #ccc;
+  color: #555;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.footnote {
+  color: #444;
+}
+
+.center {
+  display:inline-block;
+  margin: 0 auto;
+}
+
+hr.fat {
+  border: none;
+  margin: 1.5rem 0;
+  border-bottom: 300px solid #000;
+  position: relative;
+  top: -1px;
+}
+
+
+.img, .container iframe {
+  max-width: 100%;
+}
+
+a {
+word-wrap: break-word;
+}
+
+.container img {
+  margin: 2em auto 2em auto;
+  display: block;
+  max-width: 75%;
+}
+
+@media (max-width: 635px) {
+.container img {
+ max-width: 100%
+ }
+}
+
+table {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: .25rem .5rem;
+  border: 1px solid #ccc;
+}
+
+pre, code {
+  font-family: inherit;
+  background-color: #eee;
+}
+
+pre {
+  padding: .5rem 1rem;
+  font-size: 0.8rem;
+}
+
+code {
+  padding: .1rem .25rem;
+}
+
+pre > code {
+  padding: 0;
+}
+
+.container {
+  max-width: 625px;
+  margin: 0 auto;
+  padding: 0 0.75rem;
+}
+
+.sharing {
+  text-align: center;
+}
+
+.date {
+  text-align: right;
+  font-size: 75%;
+  font-style: italic;
+}
+
+@media (max-width: 635px) {
+.sharing {
+ font-size: 85%;
+ }
+}
+
+/* This gets Google to fall into place */
+.social {
+ text-align: right;
+}
+
+.topsocial {
+	margin-bottom: 5em;
+}
+
+/* This gets Facebook to fall into place */
+.social iframe {
+	vertical-align: middle;
+}
+
+/* Set an optional width for your button wrappers */
+.social span {
+	display: inline-block;
+	width: 110px;
+}
+
+/* Adjust the widths individually if you like */
+.social .google {
+	width: 75px;
+}
+
+.button {
+  margin-top: 2em;
+  margin-left: 1em;
+  display: inline-block;
+  border: 2px solid #111;
+  border-radius: 0.4em;
+  padding: 0.1em 0.75em;
+  font-size: 17px;
+  color: #111;
+  text-align: center;
+}
+
+.button:hover {
+	color: white;
+	background-color: #111;
+	cursor: pointer;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.Facebook {
+	transform: scale(1.25);
+}
+
+.sharing-buttons {
+	width: 100%;
+}
+}
