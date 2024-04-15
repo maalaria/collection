@@ -4,7 +4,8 @@
      1.2 erstelle ./\_NAME/index.html: hier wird die eigentliche Integration der Dateien implementiert -> looped über vorhandene Dateien
   2. definiere Link in ./index.html
   3. füge eintrag zu ./\_config.yml hinzu (hier müssen alle existierenden Unterseiten aufgeführt sein)
-  4.
+  4. to add a post to that subpage: add a file ./\_NAME/FILENAME.md
+     - to have it published set the published keyword to true
 
 - build and publish (push to github)
 
