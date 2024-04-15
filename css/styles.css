@@ -121,7 +121,7 @@ hr.mid {
 #centered {
     position: fixed; /* or absolute */
     top: 25%;
-    left: 50%;
+    left: 10%;
 }
 
 #content {
