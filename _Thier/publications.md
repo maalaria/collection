@@ -23,8 +23,8 @@ published: true
 
 ## [Fourth Example](http://www.fourthexample.com)
 
-<object data="https://www.eneuro.org/content/eneuro/7/5/ENEURO.0437-19.2020.full.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://www.eneuro.org/content/eneuro/7/5/ENEURO.0437-19.2020.full.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://www.eneuro.org/content/eneuro/7/5/ENEURO.0437-19.2020.full.pdf">Download PDF</a>.</p>
+<object data="./src/ENEURO.0437-19.2020.full.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="./src/">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="./src/">Download PDF</a>.</p>
     </embed>
 </object>
