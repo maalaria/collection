@@ -295,8 +295,7 @@ pre > code {
 }
 
 .container {
-  width: 100px;
-  max-width: 300px;
+  max-width: 625px;
   margin: 0 auto;
   padding: 0 0.75rem;
 }
