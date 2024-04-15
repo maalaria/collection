@@ -54,7 +54,7 @@ p.one {
 
 p.two {
     color: #2222aa;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: normal;
     text-align: left;
     line-height: 0.01;
@@ -138,7 +138,7 @@ h1 {
     margin: 30;
     text-align: left;
     line-height: 0.1;
-    font-size: 90px;
+    font-size: 150px;
     font-weight: bold;
 }
 h3 {
