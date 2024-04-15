@@ -24,7 +24,7 @@ title: Gogolla
 <h3>Lit</h3>
 {% for post in site.Gogolla %}
   {% if post.category == "Gogolla" %}
-    {% if post.tag == "lit" %}
+    {% if post.tag == "lab_meeting" %}
       <a class="post" href="{{ post._url }}" onclick=“window.open(‘{{ post._url }}’, ‘_self’);”>{{ post.title }}</a><br>
     {% endif %}
   {% endif %}
