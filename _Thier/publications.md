@@ -8,4 +8,6 @@ status: finished
 published: true
 ---
 
+options(width = 60)
+
 [<b>P. M. Kraemer, M. Görner, H. Ramezanpour, P. W. Dicke, P. Thier</b>, <i>Frontal, Parietal, and Temporal Brain Areas Are Differentially Activated When Disambiguating Potential Objects of Joint Attention.</i> eNeuro 7 (2020).](./src/ENEURO.0437-19.2020.full.pdf)
