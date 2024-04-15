@@ -1,7 +1,6 @@
 body {
     font-family: "Cambria", Georgia, serif;
     /*font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;*/
-    width: 300px;
     background: white;
     color: #000000;
     padding: 5em;
@@ -55,7 +54,7 @@ p.one {
 
 p.two {
     color: #2222aa;
-    font-size: 50px;
+    font-size: 25px;
     font-weight: normal;
     text-align: left;
     line-height: 0.01;
