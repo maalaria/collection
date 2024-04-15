@@ -23,6 +23,9 @@ published: true
 
 ## [Fourth Example](http://www.fourthexample.com)
 
+[link-text](./src/ENEURO.0437-19.2020.full.pdf)
+[link-text](https://maalaria.github.io/collection/Thier/src/ENEURO.0437-19.2020.full.pdf)
+
 <a href=“https://maalaria.github.io/collection/Thier/src/ENEURO.0437-19.2020.full.pdf”>link-text</a>
 
 <object data="./src/ENEURO.0437-19.2020.full.pdf" type="application/pdf" width="700px" height="700px">
