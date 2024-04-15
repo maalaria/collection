@@ -23,6 +23,8 @@ published: true
 
 ## [Fourth Example](http://www.fourthexample.com)
 
+<a href=“./src/ENEURO.0437-19.2020.full.pdf”>link-text</a>
+
 <object data="./src/ENEURO.0437-19.2020.full.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="./src/">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="./src/">Download PDF</a>.</p>
