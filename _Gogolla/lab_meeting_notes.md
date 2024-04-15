@@ -4,7 +4,7 @@ layout: good_clean_default
 category: Gogolla
 tag: lab_meeting
 status: unfinished
-published: false
+published: true
 ---
 
 # Test
