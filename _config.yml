@@ -25,6 +25,9 @@ collections:
   Gogolla:
     output: true
 
+  Thier:
+    output: true
+
   projects:
     output: true
 
