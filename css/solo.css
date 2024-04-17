@@ -31,9 +31,12 @@ html {
 body {
   font-family: "Cambria";
   background: white;
-  padding-left: 200px;
+  padding-left: 20%;
   color: #222;
+  width: 500px;
 }
+
+
 
 @media (min-width: 30rem) {
   body {
