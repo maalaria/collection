@@ -31,7 +31,7 @@ html {
 body {
   font-family: "Cambria";
   background: white;
-  padding: 200px;
+  padding-left: 200px;
   color: #222;
 }
 
@@ -47,6 +47,15 @@ body {
 a {
   color: #0074d9; /* From http://clrs.cc */
   text-decoration: none;
+}
+
+a.back {
+  color: #0074d9; /* From http://clrs.cc */
+  text-decoration: none;
+  position: fixed;
+  margin-left: -5rem;
+  margin-top: 10rem;
+
 }
 
 a:hover, a:focus {
