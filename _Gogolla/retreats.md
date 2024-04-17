@@ -1,16 +1,17 @@
 ---
-title: Lab meeting notes
-_url: https://maalaria.github.io/collection/Gogolla/retreat_2024.html
+title: Retreats
 layout: good_clean_default
 category: Gogolla
-tag: retreat_2024
+tag: retreats
 status: finished
 published: true
 ---
 
-# Talks
+# Institute Retreat 2024
 
-## Portugues
+## Talks
+
+**Ruben Portugues**
 
 - internal compass in zebra fish
   - anatomical ring structure network encodes fish orientation

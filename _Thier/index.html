@@ -38,7 +38,7 @@ title: Thier
 {% for post in site.Thier %}
   {% if post.category == "Thier" %}
     {% if post.tag == "paper" %}
-      <a class="post" href="{{ post._url }}" onclick=“window.open(‘{{ post._url }}’, ‘_self’);”>{{ post.title }}</a><br>
+      <a class="post" href="./{{ post.tag }}.html" onclick=“window.open(‘./{{ post.tag }}.html’, ‘_self’);”>{{ post.title }}</a><br>
     {% endif %}
   {% endif %}
 {% endfor %}

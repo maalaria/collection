@@ -123,6 +123,7 @@ hr.mid {
     position: fixed; /* or absolute */
     top: 25%;
     left: 45%;
+    width: 10%;
 }
 
 #content {
