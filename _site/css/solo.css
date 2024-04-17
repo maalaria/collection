@@ -31,9 +31,7 @@ html {
 body {
   font-family: "Cambria";
   background: white;
-  padding-left: 20%;
   color: #222;
-  width: 500px;
 }
 
 
@@ -138,6 +136,13 @@ p.centered {
   text-align: center;
   margin-top: 20px;
   margin-left: 5px;
+}
+
+#centered {
+    position: fixed; /* or absolute */
+    top: 10%;
+    left: 33%;
+    width: 33%;
 }
 
 /**
