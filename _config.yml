@@ -22,6 +22,9 @@ markdown: kramdown #redcarpet
 
 # Collections
 collections:
+  publications:
+    output: true
+
   Gogolla:
     output: true
 
