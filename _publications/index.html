@@ -47,8 +47,18 @@ title: Publications
 
 <a href="./src/GoernerGBCIC2017.pdf">
 <b>M. Görner, B. Schölkopf, M. Grosse-Wentrup</b>, <i>Closing one's Eyes Affects Amplitude Modualtion but not Frequency Modulation in a Cognitive BCI</i> in Proc. 7th Graz Brain-Computer Interface Conf. 2017 From Vis. to Real., pp. 165–170.
-
 </a>
+
+
+
+<h3>Fic</h3>
+{% for post in site.publications %}
+  {% if post.category == "writings" %}
+    {% if post.tag == "fiction" %}
+      <a href="{{ post.url }}" onclick=“window.open(‘{{ post.fname }}’, ‘_self’);”>{{ post.title }}</a><br>
+    {% endif %}
+  {% endif %}
+{% endfor %}
 
 </div>
 

@@ -23,8 +23,15 @@ ul {
 }
 
 a {
-    color: #000000;
+    font-family: "Cambria";
+    color: #2222aa;
     text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1;
+    padding-top: 0px;
+    margin: 3px;
 }
 
 a.home {
@@ -34,7 +41,7 @@ a.home {
 }
 
 a:hover {
-    color: #00bb00;
+    color: #5555dd;
     text-decoration: none;
 }
 
@@ -122,8 +129,8 @@ hr.mid {
 #centered {
     position: fixed; /* or absolute */
     top: 25%;
-    left: 45%;
-    width: 10%;
+    left: 35%;
+    width: 30%;
 }
 
 #content {

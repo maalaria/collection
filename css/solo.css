@@ -34,7 +34,14 @@ body {
   color: #222;
 }
 
-
+body.black {
+    font-family: "Cambria", Georgia, serif;
+    /*font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;*/
+    background: black;
+    color: #ffffff;
+    padding: 5em;
+    margin: 0;
+}
 
 @media (min-width: 30rem) {
   body {
@@ -45,22 +52,37 @@ body {
 /**
  * Design of Links
  */
-a {
-  color: #0074d9; /* From http://clrs.cc */
-  text-decoration: none;
-}
+ a {
+     font-family: "Cambria";
+     color: #2222aa;
+     text-decoration: none;
+     font-size: 17px;
+     font-weight: normal;
+     text-align: left;
+     line-height: 1.3;
+     padding-top: 0px;
+     margin: 3px;
+ }
+
+ a.home {
+     display: block;
+     text-align: right;
+     color: #bb0000;
+ }
+
+ a:hover {
+     color: #5555dd;
+     text-decoration: none;
+ }
 
 a.back {
   color: #0074d9; /* From http://clrs.cc */
+  font-size: 30px;
   text-decoration: none;
   position: fixed;
   margin-left: -5rem;
   margin-top: 10rem;
 
-}
-
-a:hover, a:focus {
-  text-decoration: none;
 }
 
 a.post {
@@ -124,6 +146,16 @@ p.centered {
   text-align: center;
 }
 
+p.two {
+    color: #2222aa;
+    font-size: 35px;
+    font-weight: normal;
+    text-align: left;
+    line-height: 0.01;
+    padding-top: 30px;
+    margin: 3px;
+}
+
 
 #box
 {
@@ -139,10 +171,11 @@ p.centered {
 }
 
 #centered {
-    position: fixed; /* or absolute */
+    position: absolute; /* or absolute */
     top: 10%;
-    left: 33%;
-    width: 33%;
+    bottom: 10%;
+    left: 30%;
+    width: 40%;
 }
 
 /**
@@ -281,6 +314,12 @@ word-wrap: break-word;
 .container img {
  max-width: 100%
  }
+}
+
+#wrap {
+    float: left;
+    position: relative;
+    left: 20%;
 }
 
 table {
