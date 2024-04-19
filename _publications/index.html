@@ -55,10 +55,20 @@ title: Publications
 {% for post in site.publications %}
   {% if post.category == "writings" %}
     {% if post.tag == "fiction" %}
-      <a href="../{{ post.url }}" onclick=“window.open(‘../{{ post.fname }}’, ‘_self’);”>{{ post.title }}</a><br>
+      <a href="..{{ post.url }}" onclick=“window.open(‘..{{ post.fname }}’, ‘_self’);”>{{ post.title }}</a><br>
     {% endif %}
   {% endif %}
 {% endfor %}
+
+      <h3>Fic</h3>
+      {% for post in site.publications %}
+        {% if post.category == "writings" %}
+          {% if post.tag == "fiction" %}
+            ..{{ post.url }}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
 
 </div>
 
