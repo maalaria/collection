@@ -1,6 +1,5 @@
 ---
 title: Mother/Monkey
-fname: mother_monkey
 layout: good_clean_default
 category: writings
 tag: fiction
