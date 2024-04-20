@@ -170,21 +170,13 @@ p.two {
   margin-left: 5px;
 }
 
-div.centered_publications {
-    position: relative; /* or absolute */
-    top: 0%;
-    left: 30%;
-    width: 40%;
+.center {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
 
 }
 
-div.centered_writings {
-    position: relative; /* or absolute */
-    top: 0%;
-    left: 30%;
-    width: 4%;
-    line-height: 150%;
-}
 
 /**
  * Design of headings
