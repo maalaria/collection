@@ -32,7 +32,6 @@ body {
   font-family: "Cambria";
   background: white;
   color: #222;
-  padding: 20rem;
 }
 
 body.black {
@@ -171,9 +170,17 @@ p.two {
   margin-left: 5px;
 }
 
-#centered {
+#centered_publications {
     position: relative; /* or absolute */
-    top: 10%;
+    top: 0%;
+    left: 15%;
+    width: 70%;
+
+}
+
+#centered_writings {
+    position: relative; /* or absolute */
+    top: 0%;
     left: 15%;
     width: 70%;
 
