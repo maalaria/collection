@@ -173,16 +173,16 @@ p.two {
 #centered_publications {
     position: relative; /* or absolute */
     top: 0%;
-    left: 15%;
-    width: 70%;
+    left: 30%;
+    width: 40%;
 
 }
 
 #centered_writings {
     position: relative; /* or absolute */
     top: 0%;
-    left: 15%;
-    width: 70%;
+    left: 30%;
+    width: 40%;
 
 }
 
