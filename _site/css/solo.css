@@ -172,7 +172,7 @@ p.two {
 }
 
 #centered {
-    position: absolute; /* or absolute */
+    position: relative; /* or absolute */
     top: 10%;
     left: 25%;
     width: 50%;
