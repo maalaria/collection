@@ -173,7 +173,7 @@ p.two {
 div.centered_publications {
     position: relative; /* or absolute */
     top: 0%;
-    left: 20%;
+    left: 0%;
     width: 80%;
 
 }
@@ -181,7 +181,7 @@ div.centered_publications {
 div.centered_writings {
     position: relative; /* or absolute */
     top: 0%;
-    left: 20%;
+    left: 0%;
     width: 80%;
     line-height: 150%;
 }
