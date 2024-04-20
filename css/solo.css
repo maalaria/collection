@@ -32,6 +32,9 @@ body {
   font-family: "Cambria";
   background: white;
   color: #222;
+  margin: auto;
+  width: 70%;
+  border: 3px solid green;
 }
 
 body.black {
@@ -172,9 +175,9 @@ p.two {
 
 .center {
     margin: auto;
-    width: 70%;
-    padding: 10px;
-
+    width: 60%;
+    padding: 70px 0;
+    border: 3px solid green;
 }
 
 

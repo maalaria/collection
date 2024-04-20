@@ -4,8 +4,10 @@ body {
     /*font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;*/
     background: white;
     color: #000000;
-    padding: 10rem;
-    margin: 0;
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    border: 3px solid green;
 }
 
 body.black {
@@ -134,8 +136,9 @@ hr.mid {
 }
 .center {
     margin: auto;
-    width: 70%;
+    width: fit-content;
     padding: 70px 0;
+    border: 3px solid green;
 }
 
 #content {
