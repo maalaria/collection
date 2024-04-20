@@ -32,6 +32,7 @@ body {
   font-family: "Cambria";
   background: white;
   color: #222;
+  padding: 0rem;
 }
 
 body.black {
@@ -171,23 +172,26 @@ p.two {
 }
 
 #centered {
-    position: absolute; /* or absolute */
+    position: relative; /* or absolute */
     top: 10%;
-    bottom: 10%;
-    left: 30%;
-    width: 40%;
+    left: 25%;
+    width: 50%;
+
 }
 
 /**
  * Design of headings
  */
-h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 0.5rem -0.1rem /* align left edge */;
-  color: #000;
-  text-rendering: optimizeLegibility;
-  font-family: 'Open Sans', serif;
-  line-height: 1.2
-}
+/**
+* h1, h2, h3, h4, h5, h6 {
+*  margin: 10rem 0 -10rem -0.1rem ;
+*  color: #000;
+*  text-rendering: optimizeLegibility;
+*  font-family: 'Open Sans', serif;
+*  line-height: 1.2
+*}
+*/
+
 
 @media (max-width: 750px) {
 h1, h2, h3, h4, h5, h6 {
@@ -197,8 +201,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 5rem;
-  margin-bottom: 7rem;
+  font-size: 4rem !important;
+  margin-bottom: 4rem !important;
+  margin-top: 7rem;
   font-weight: 700;
   margin-left: -2rem;
   margin-right: -2rem;
@@ -352,9 +357,10 @@ pre > code {
 }
 
 .container {
-  max-width: 625px;
-  margin: 0 auto;
-  padding: 0 0.75rem;
+    max-width: 625px;
+    margin-left: 0 auto;
+    padding: 0 0.75rem;
+    line-height: 1.3%;
 }
 
 .sharing {
