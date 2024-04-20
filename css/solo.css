@@ -170,20 +170,20 @@ p.two {
   margin-left: 5px;
 }
 
-#centered_publications {
+div.centered_publications {
     position: relative; /* or absolute */
     top: 0%;
-    left: 30%;
-    width: 40%;
+    left: 35%;
+    width: 30%;
 
 }
 
-#centered_writings {
+div.centered_writings {
     position: relative; /* or absolute */
     top: 0%;
-    left: 30%;
-    width: 40%;
-
+    left: 20%;
+    width: 80%;
+    line-height: 150%;
 }
 
 /**
