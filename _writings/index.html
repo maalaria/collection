@@ -1,0 +1,97 @@
+---
+layout: good_clean_default
+title: Writings
+---
+<head>
+  <meta charset=utf-8 />
+  <link rel="stylesheet" href="../css/solo.css" />
+  <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<title>Writings</title>
+</head>
+
+<a class="back" href="../" onclick=“window.open(‘../’, ‘_self’);”><b><</b></a>
+
+
+<section class="content">
+  <h1>Writings</h1>
+</section>
+
+
+<h3>Fic</h3>
+{% for post in site.writings %}
+  {% if post.category == "writings" %}
+    {% if post.tag == "fiction" %}
+      <a href="..{{ post.url }}" onclick=“window.open(‘..{{ post.url }}’, ‘_self’);”>{{ post.title }}</a><br>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+
+<h3>Pol</h3>
+{% for post in site.writings %}
+  {% if post.category == "writings" %}
+    {% if post.tag == "politics" %}
+      <a href="..{{ post.url }}" onclick=“window.open(‘..{{ post.url }}’, ‘_self’);”>{{ post.title }}</a><br>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<h3>Art</h3>
+{% for post in site.writings %}
+  {% if post.category == "writings" %}
+    {% if post.tag == "art" %}
+      <a href="..{{ post.url }}" onclick=“window.open(‘..{{ post.url }}’, ‘_self’);”>{{ post.title }}</a><br>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+
+<h3>Mis</h3>
+{% for post in site.writings %}
+  {% if post.category == "writings" %}
+    {% if post.tag == "miscellaneous" %}
+      <a href="..{{ post.url }}" onclick=“window.open(‘..{{ post.url }}’, ‘_self’);”>{{ post.title }}</a><br>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<h3>Neu</h3>
+{% for post in site.writings %}
+  {% if post.category == "writings" %}
+    {% if post.tag == "neuroscience" %}
+      <a href="..{{ post.url }}" onclick=“window.open(‘..{{ post.url }}’, ‘_self’);”>{{ post.title }}</a><br>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<h3>Phi</h3>
+{% for post in site.writings %}
+  {% if post.category == "writings" %}
+    {% if post.tag == "philosophy" %}
+      <a href="..{{ post.url }}" onclick=“window.open(‘..{{ post.url }}’, ‘_self’);”>{{ post.title }}</a><br>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<h3>EvoEco</h3>
+{% for post in site.writings %}
+  {% if post.category == "writings" %}
+    {% if post.tag == "evoeco" %}
+      <a href="..{{ post.url }}" onclick=“window.open(‘..{{ post.url }}’, ‘_self’);”>{{ post.title }}</a><br>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+
+<!--
+<h3>System and information</h3>
+{% for post in site.writings %}
+  {% if post.category == "writings" %}
+    {% if post.tag == "system_and_information" %}
+      <a class="post" href="{{ post._url }}" onclick=“window.open(‘{{ post._url }}’, ‘_self’);”>{{ post.title }}</a><br>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+-->
