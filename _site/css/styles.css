@@ -132,6 +132,11 @@ hr.mid {
     left: 40%;
     width: 30%;
 }
+.center {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
 
 #content {
     float: left;
