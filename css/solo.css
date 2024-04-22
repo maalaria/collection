@@ -29,12 +29,14 @@ html {
 
 /*that is the body of the subpages*/
 body {
-  font-family: "Cambria";
-  background: white;
-  color: #222;
-  margin: auto;
-  width: 70%;
-  border: 3px solid green;
+    font-family: "Cambria", Georgia, serif;
+    /*font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;*/
+    background: white;
+    color: #000000;
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    border: 3px solid green;
 }
 
 body.black {
@@ -46,107 +48,105 @@ body.black {
     margin: 0;
 }
 
-@media (min-width: 30rem) {
-  body {
-    margin-top: 5rem;
-  }
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 /**
  * Design of Links
  */
- a {
-     font-family: "Cambria";
-     color: #2222aa;
-     text-decoration: none;
-     font-size: 17px;
-     font-weight: normal;
-     text-align: left;
-     line-height: 1.3;
-     padding-top: 0px;
-     margin: 3px;
- }
+a {
+    font-family: "Cambria";
+    color: #2222aa;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: normal;
+    text-align: left;
+    line-height: 1.3;
+    padding-top: 0px;
+    margin: 3px;
+}
 
- a.home {
-     display: block;
-     text-align: right;
-     color: #bb0000;
- }
+a.home {
+    display: block;
+    text-align: right;
+    color: #bb0000;
+}
 
- a:hover {
-     color: #5555dd;
-     text-decoration: none;
- }
+a:hover {
+    color: #5555dd;
+    text-decoration: none;
+}
 
 a.back {
-  color: #0074d9; /* From http://clrs.cc */
-  font-size: 30px;
-  text-decoration: none;
-  position: fixed;
-  margin-left: -5rem;
-  margin-top: 10rem;
-
+    color: #0074d9; /* From http://clrs.cc */
+    font-size: 30px;
+    text-decoration: none;
+    position: static;
+    margin-left: 0rem;
+    margin-top: 10rem;
 }
 
 a.post {
-  color: #000000; /* From http://clrs.cc */
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 17px
+    color: #000000; /* From http://clrs.cc */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
 }
 
 a.post_unfinished {
-  color: #000000; /* From http://clrs.cc */
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 17px;
-  text-align: right;
+    color: #000000; /* From http://clrs.cc */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: right;
 }
 
-a.post:hover, a.post:focus {
-  color: #0000ff;
-  text-decoration: none;
+a.post:hover,
+a.post:focus {
+    color: #0000ff;
+    text-decoration: none;
 }
 a.collection {
-  color: #000000; /* From http://clrs.cc */
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 23px
+    color: #000000; /* From http://clrs.cc */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 23px;
 }
 
 a.collection_unfinished {
-  color: #aaaaaa; /* From http://clrs.cc */
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 23px
+    color: #aaaaaa; /* From http://clrs.cc */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 23px;
 }
 
-a.collection:hover, a.post:focus {
-  color: #0000ff;
-  text-decoration: none;
+a.collection:hover,
+a.post:focus {
+    color: #0000ff;
+    text-decoration: none;
 }
-
-
 
 /**
  * Design of special text blocks
  */
 p.example {
-  background-color: rgba(0, 0, 0, 0.1);
-  text-align:left;
-  vertical-align: middle;
-  padding:10px 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px 10px;
 }
 
 p.important {
-  background-color: rgba(200, 0, 0, 0.1);
-  text-align:left;
-  vertical-align: middle;
-  padding:10px 10px;
+    background-color: rgba(200, 0, 0, 0.1);
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px 10px;
 }
 
 p.centered {
-  text-align: center;
+    text-align: center;
 }
 
 p.two {
@@ -159,27 +159,31 @@ p.two {
     margin: 3px;
 }
 
-
-#box
-{
-  height: 90px;
-  width: 270px;
-  background: #000;
-  font-size: 48px;
-  font-style: oblique;
-  color: #FFF;
-  text-align: center;
-  margin-top: 20px;
-  margin-left: 5px;
+#box {
+    height: 90px;
+    width: 270px;
+    background: #000;
+    font-size: 48px;
+    font-style: oblique;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 5px;
 }
 
-.center {
+.center_publications {
     margin: auto;
-    width: 60%;
+    width: 50%;
     padding: 70px 0;
     border: 3px solid green;
 }
 
+.center {
+    margin: auto;
+    width: fit-content;
+    padding: 70px 0;
+    border: 3px solid green;
+}
 
 /**
  * Design of headings
@@ -194,243 +198,85 @@ p.two {
 *}
 */
 
-
 @media (max-width: 750px) {
-h1, h2, h3, h4, h5, h6 {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
- }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
 }
 
 h1 {
-  font-size: 4rem !important;
-  margin-bottom: 4rem !important;
-  margin-top: 7rem;
-  font-weight: 700;
-  margin-left: -2rem;
-  margin-right: -2rem;
+    font-size: 4rem !important;
+    margin-bottom: 4rem !important;
+    margin-top: 7rem;
+    font-weight: 700;
+    margin-left: -2rem;
+    margin-right: -2rem;
 }
 
 @media (min-width: 30rem) {
-  h1 {
-    font-size: 4rem;
-    margin-bottom: 10rem;
-  }
+    h1 {
+        font-size: 4rem;
+        margin-bottom: 10rem;
+    }
 }
 
 h1 a {
-  color: inherit;
+    color: inherit;
 }
 
 h2 {
-  margin-top: 2rem;
-  font-size: 1.75rem;
-  font-weight: 500;
-  margin-bottom: 5rem;
-  color: #000;
-  text-align: left;
-  margin-right: -4rem;
+    margin-top: 2rem;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
+    color: #000;
+    text-align: left;
+    margin-right: -4rem;
 }
 
 @media (min-width: 30rem) {
-  h2 {
-    margin-top: 2.5rem;
-    font-size: 1.75rem;
-    margin-bottom: 8rem;
-    margin-right: -4rem;
-  }
+    h2 {
+        margin-top: 2.5rem;
+        font-size: 1.75rem;
+        margin-bottom: 8rem;
+        margin-right: -4rem;
+    }
 }
 
 h3 {
-  margin: 2rem -2rem 1.75rem -2rem;
-  margin-top: 2rem;
-  font-size: 1.75rem;
+    margin: 2rem -2rem 1.75rem -2rem;
+    margin-top: 2rem;
+    font-size: 1.75rem;
 }
 
 @media (min-width: 30rem) {
-  h3 {
-    margin-top: 2.5rem;
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
-  }
+    h3 {
+        margin-top: 2.5rem;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
 }
 
-h4, h5, h6 {
-  margin: 1.5rem -1rem 1.5rem -1rem;
-  font-size: 1.5rem;
+h4,
+h5,
+h6 {
+    margin: 1.5rem -1rem 1.5rem -1rem;
+    font-size: 1.5rem;
 }
 
-p, ul, ol, dl, table, pre, blockquote {
-  margin-top: 0;
-  margin-bottom: 1.5rem;
-}
-
-ul, ol {
-  padding-left: 1.5rem;
-}
-
-dd {
-  margin-left: 1.5rem;
-}
-
+p,
+ul,
+ol,
+dl,
+table,
+pre,
 blockquote {
-  margin-left: 0.75rem;
-  margin-right: 0;
-  padding: 0rem 0.8rem;
-  border-left: .3rem solid #ccc;
-  color: #555;
-}
-
-blockquote p:last-child {
-  margin-bottom: 0;
-}
-
-.footnote {
-  color: #444;
-}
-
-.center {
-  display:inline-block;
-  margin: 0 auto;
-}
-
-hr.fat {
-  border: none;
-  margin: 1.5rem 0;
-  border-bottom: 300px solid #000;
-  position: relative;
-  top: -1px;
-}
-
-
-.img, .container iframe {
-  max-width: 100%;
-}
-
-a {
-word-wrap: break-word;
-}
-
-.container img {
-  margin: 2em auto 2em auto;
-  display: block;
-  max-width: 75%;
-}
-
-@media (max-width: 635px) {
-.container img {
- max-width: 100%
- }
-}
-
-#wrap {
-    float: left;
-    position: relative;
-    left: 20%;
-}
-
-table {
-  width: 100%;
-  border: 1px solid #ccc;
-  border-collapse: collapse;
-}
-
-td, th {
-  padding: .25rem .5rem;
-  border: 1px solid #ccc;
-}
-
-pre, code {
-  font-family: inherit;
-  background-color: #eee;
-}
-
-pre {
-  padding: .5rem 1rem;
-  font-size: 0.8rem;
-}
-
-code {
-  padding: .1rem .25rem;
-}
-
-pre > code {
-  padding: 0;
-}
-
-.container {
-    max-width: 625px;
-    margin-left: 0 auto;
-    padding: 0 0.75rem;
-    line-height: 1.3%;
-}
-
-.sharing {
-  text-align: center;
-}
-
-.date {
-  text-align: right;
-  font-size: 75%;
-  font-style: italic;
-}
-
-@media (max-width: 635px) {
-.sharing {
- font-size: 85%;
- }
-}
-
-/* This gets Google to fall into place */
-.social {
- text-align: right;
-}
-
-.topsocial {
-	margin-bottom: 5em;
-}
-
-/* This gets Facebook to fall into place */
-.social iframe {
-	vertical-align: middle;
-}
-
-/* Set an optional width for your button wrappers */
-.social span {
-	display: inline-block;
-	width: 110px;
-}
-
-/* Adjust the widths individually if you like */
-.social .google {
-	width: 75px;
-}
-
-.button {
-  margin-top: 2em;
-  margin-left: 1em;
-  display: inline-block;
-  border: 2px solid #111;
-  border-radius: 0.4em;
-  padding: 0.1em 0.75em;
-  font-size: 17px;
-  color: #111;
-  text-align: center;
-}
-
-.button:hover {
-	color: white;
-	background-color: #111;
-	cursor: pointer;
-	text-decoration: none;
-	transition: 0.5s;
-}
-
-.Facebook {
-	transform: scale(1.25);
-}
-
-.sharing-buttons {
-	width: 100%;
-}
+    margin-top: 0;
+    margin-bottom: 1.5rem;
 }

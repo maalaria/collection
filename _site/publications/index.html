@@ -1,34 +1,6 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>maalaria</title>
-        <link rel="stylesheet" href="/css/normalize.css" />
-        <link rel="stylesheet" href="/css/syntax.css" />
-        <link rel="stylesheet" href="/css/rrssb.css" />
-        <link rel="stylesheet" href="/css/solo.css" />
-        <script src="/scripts/jquery.js"></script>
-        <link rel="canonical" href="" />
-        <script type="text/x-mathjax-config">
-            MathJax.Hub.Config({
-              tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-            });
-        </script>
-        <script
-            type="text/javascript"
-            async
-            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
-        ></script>
-    </head>
-    <body>
-        <article>
-            <div class=".container">
-                <h1><a href="./"></a></h1>
-                <head>
+<!DOCTYPE html>
+<html>
+<head>
   <meta charset=utf-8 />
   <link rel="stylesheet" href="../css/solo.css" />
   <script type="text/javascript"
@@ -39,7 +11,7 @@
 
 <body>
 
-<div class="center">
+<div class="center_publications">
 
 <a class="back" href="../" onclick=“window.open(‘../’, ‘_self’);”><b><</b></a>
 
@@ -95,9 +67,13 @@
 
 
 <!--
-
-  
-
+{% for post in site.Thier %}
+  {% if post.category == "Thier" %}
+    {% if post.tag == "paper" %}
+      <a class="post" href="./{{ post.tag }}.html" onclick=“window.open(‘./{{ post.tag }}.html’, ‘_self’);”>{{ post.title }}</a><br>
+    {% endif %}
+  {% endif %}
+{% endfor %}
 -->
 
 
@@ -105,319 +81,14 @@
 
 <!--
 <h3>System and information</h3>
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-      <a class="post" href="" onclick=“window.open(‘’, ‘_self’);”>Allgemeine Definition Information</a><br>
-    
-  
-
-  
-    
-      <a class="post" href="" onclick=“window.open(‘’, ‘_self’);”>Emergente Eigenschaften</a><br>
-    
-  
-
-  
-    
-      <a class="post" href="" onclick=“window.open(‘’, ‘_self’);”>Ist die Entwicklung eines System determiniert?</a><br>
-    
-  
-
-  
-    
-      <a class="post" href="" onclick=“window.open(‘’, ‘_self’);”>What means a system has purpose?</a><br>
-    
-  
-
-  
-    
-      <a class="post" href="" onclick=“window.open(‘’, ‘_self’);”>A Systemtheoretical approach to propability, randomness and chance?</a><br>
-    
-  
-
-  
-    
-      <a class="post" href="" onclick=“window.open(‘’, ‘_self’);”>Zwei bzgl ihrer inneren Struktur gleiche Systeme verhalten sich in unterschiedlichen Umgebungen unterschiedlich</a><br>
-    
-  
-
+{% for post in site.writings %}
+  {% if post.category == "writings" %}
+    {% if post.tag == "system_and_information" %}
+      <a class="post" href="{{ post._url }}" onclick=“window.open(‘{{ post._url }}’, ‘_self’);”>{{ post.title }}</a><br>
+    {% endif %}
+  {% endif %}
+{% endfor %}
 -->
 
 </body>
-
-            </div>
-        </article>
-        <script src="/scripts/rrssb.min.js"></script>
-    </body>
 </html>
