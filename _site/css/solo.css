@@ -29,160 +29,174 @@ html {
 
 /*that is the body of the subpages*/
 body {
-    font-family: "Cambria", Georgia, serif;
-    /*font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;*/
-    background: white;
-    color: #000000;
-    padding: 10px;
-    margin: 0 auto;
-    width: 100%;
-    border: 3px solid green;
+  font-family: "Cambria", Georgia, serif;
+  /*font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;*/
+  background: white;
+  color: #000000;
+  padding: 10px;
+  margin: 0 auto;
+  width: 100%;
+  /* border: 3px solid green; */
+}
+
+body.post {
+  font-family: "Cambria", Georgia, serif;
+  /*font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;*/
+  background: white;
+  color: #000000;
+  padding: 10px;
+  margin: 0 auto;
+  width: 60%;
+  /*border: 3px solid green; */
 }
 
 body.black {
-    font-family: "Cambria", Georgia, serif;
-    /*font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;*/
-    background: black;
-    color: #ffffff;
-    padding: 5em;
-    margin: 0;
+  font-family: "Cambria", Georgia, serif;
+  /*font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;*/
+  background: black;
+  color: #ffffff;
+  padding: 5em;
+  margin: 0;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  padding-inline-start: 25px;
 }
 
 /**
  * Design of Links
  */
 a {
-    font-family: "Cambria";
-    color: #2222aa;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: normal;
-    text-align: left;
-    line-height: 1.3;
-    padding-top: 0px;
-    margin: 3px;
+  font-family: "Cambria";
+  color: #2222aa;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: normal;
+  text-align: left;
+  line-height: 1.3;
+  padding-top: 0px;
+  margin: 3px;
 }
 
 a.home {
-    display: block;
-    text-align: right;
-    color: #bb0000;
+  display: block;
+  text-align: right;
+  color: #bb0000;
 }
 
 a:hover {
-    color: #5555dd;
-    text-decoration: none;
+  color: #5555dd;
+  text-decoration: none;
 }
 
 a.back {
-    color: #0074d9; /* From http://clrs.cc */
-    font-size: 30px;
-    text-decoration: none;
-    position: static;
-    margin-left: 0rem;
-    margin-top: 10rem;
+  color: #0074d9; /* From http://clrs.cc */
+  font-size: 30px;
+  text-decoration: none;
+  position: fixed;
+  margin-left: -7rem;
+  margin-top: 10rem;
 }
 
 a.post {
-    color: #000000; /* From http://clrs.cc */
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 17px;
+  color: #000000; /* From http://clrs.cc */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
 }
 
 a.post_unfinished {
-    color: #000000; /* From http://clrs.cc */
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 17px;
-    text-align: right;
+  color: #000000; /* From http://clrs.cc */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: right;
 }
 
 a.post:hover,
 a.post:focus {
-    color: #0000ff;
-    text-decoration: none;
+  color: #0000ff;
+  text-decoration: none;
 }
 a.collection {
-    color: #000000; /* From http://clrs.cc */
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 23px;
+  color: #000000; /* From http://clrs.cc */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 23px;
 }
 
 a.collection_unfinished {
-    color: #aaaaaa; /* From http://clrs.cc */
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 23px;
+  color: #aaaaaa; /* From http://clrs.cc */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 23px;
 }
 
 a.collection:hover,
 a.post:focus {
-    color: #0000ff;
-    text-decoration: none;
+  color: #0000ff;
+  text-decoration: none;
 }
 
 /**
  * Design of special text blocks
  */
 p.example {
-    background-color: rgba(0, 0, 0, 0.1);
-    text-align: left;
-    vertical-align: middle;
-    padding: 10px 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: left;
+  vertical-align: middle;
+  padding: 10px 10px;
 }
 
 p.important {
-    background-color: rgba(200, 0, 0, 0.1);
-    text-align: left;
-    vertical-align: middle;
-    padding: 10px 10px;
+  background-color: rgba(200, 0, 0, 0.1);
+  text-align: left;
+  vertical-align: middle;
+  padding: 10px 10px;
 }
 
 p.centered {
-    text-align: center;
+  text-align: center;
 }
 
 p.two {
-    color: #2222aa;
-    font-size: 35px;
-    font-weight: normal;
-    text-align: left;
-    line-height: 0.01;
-    padding-top: 30px;
-    margin: 3px;
+  color: #2222aa;
+  font-size: 35px;
+  font-weight: normal;
+  text-align: left;
+  line-height: 0.01;
+  padding-top: 30px;
+  margin: 3px;
 }
 
 #box {
-    height: 90px;
-    width: 270px;
-    background: #000;
-    font-size: 48px;
-    font-style: oblique;
-    color: #fff;
-    text-align: center;
-    margin-top: 20px;
-    margin-left: 5px;
+  height: 90px;
+  width: 270px;
+  background: #000;
+  font-size: 48px;
+  font-style: oblique;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 5px;
 }
 
 .center_publications {
-    margin: auto;
-    width: 50%;
-    padding: 70px 0;
-    border: 3px solid green;
+  margin: auto;
+  width: 50%;
+  padding: 70px 0;
+  /*border: 3px solid green;*/
 }
 
 .center {
-    margin: auto;
-    width: fit-content;
-    padding: 70px 0;
-    border: 3px solid green;
+  margin: auto;
+  width: fit-content;
+  min-width: 200px;
+  max-width: 700px;
+  padding: 70px 0;
+  /*border: 3px solid green;*/
 }
 
 /**
@@ -199,75 +213,75 @@ p.two {
 */
 
 @media (max-width: 750px) {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-    }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
 }
 
 h1 {
-    font-size: 4rem !important;
-    margin-bottom: 4rem !important;
-    margin-top: 7rem;
-    font-weight: 700;
-    margin-left: -2rem;
-    margin-right: -2rem;
+  font-size: 3rem !important;
+  margin-bottom: 4rem !important;
+  margin-top: 2rem;
+  font-weight: 700;
+  margin-left: -2rem;
+  margin-right: -2rem;
 }
 
 @media (min-width: 30rem) {
-    h1 {
-        font-size: 4rem;
-        margin-bottom: 10rem;
-    }
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 10rem;
+  }
 }
 
 h1 a {
-    color: inherit;
+  color: inherit;
 }
 
 h2 {
-    margin-top: 2rem;
-    font-size: 1.75rem;
-    font-weight: 500;
-    margin-bottom: 5rem;
-    color: #000;
-    text-align: left;
-    margin-right: -4rem;
+  margin-top: 2rem;
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-bottom: 5rem;
+  color: #000;
+  text-align: left;
+  margin-right: -4rem;
 }
 
 @media (min-width: 30rem) {
-    h2 {
-        margin-top: 2.5rem;
-        font-size: 1.75rem;
-        margin-bottom: 8rem;
-        margin-right: -4rem;
-    }
+  h2 {
+    margin-top: 2.5rem;
+    font-size: 1.75rem;
+    margin-bottom: 4rem;
+    margin-left: -4rem;
+  }
 }
 
 h3 {
-    margin: 2rem -2rem 1.75rem -2rem;
-    margin-top: 2rem;
-    font-size: 1.75rem;
+  margin: 2rem -2rem 1.75rem -2rem;
+  margin-top: 2rem;
+  font-size: 1.75rem;
 }
 
 @media (min-width: 30rem) {
-    h3 {
-        margin-top: 2.5rem;
-        font-size: 2rem;
-        margin-bottom: 1.5rem;
-    }
+  h3 {
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
 }
 
 h4,
 h5,
 h6 {
-    margin: 1.5rem -1rem 1.5rem -1rem;
-    font-size: 1.5rem;
+  margin: 1.5rem -1rem 1.5rem -1rem;
+  font-size: 1.5rem;
 }
 
 p,
@@ -277,6 +291,6 @@ dl,
 table,
 pre,
 blockquote {
-    margin-top: 0;
-    margin-bottom: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
 }
