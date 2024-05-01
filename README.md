@@ -13,7 +13,10 @@
   2. `git add -> commit -> push`
 
 - layout
+
   - in solo.css layout things can be specified, for example `container` class can be used to
+
+- width of posts is set in ./css/solo.css body.post
 
 `./_layouts/` enthält die layoutspezifikationen die in den \*.md dateien gewählt werden können
 

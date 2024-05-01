@@ -224,12 +224,21 @@ p.two {
   }
 }
 
-h1 {
-  font-size: 3rem !important;
+h1.first {
+  font-size: 4rem !important;
   margin-bottom: 4rem !important;
-  margin-top: 2rem;
+  margin-top: 0rem;
   font-weight: 700;
-  margin-left: -2rem;
+  margin-left: -7rem;
+  margin-right: -2rem;
+}
+
+h1 {
+  font-size: 4rem !important;
+  margin-bottom: 4rem !important;
+  margin-top: 7rem;
+  font-weight: 700;
+  margin-left: -7rem;
   margin-right: -2rem;
 }
 
@@ -256,9 +265,9 @@ h2 {
 
 @media (min-width: 30rem) {
   h2 {
-    margin-top: 2.5rem;
+    margin-top: 4rem;
     font-size: 1.75rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     margin-left: -4rem;
   }
 }
