@@ -161,6 +161,19 @@ p.centered {
   text-align: center;
 }
 
+p.date {
+  color: #000000;
+  font-size: 15px;
+  font-weight: normal;
+  text-align: right;
+  line-height: 1;
+  margin-top: -30px;
+}
+
+span.highlight {
+  color: #ff0080;
+}
+
 p.two {
   color: #2222aa;
   font-size: 35px;
