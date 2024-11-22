@@ -48,5 +48,8 @@ collections:
 
   me:
     output: true
+  
+  direct:
+    output: true
 
 theme: jekyll-theme-minimal
