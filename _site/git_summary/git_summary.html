@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>maalaria</title>
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/syntax.css" />
+    <link rel="stylesheet" href="/css/rrssb.css" />
+    <link rel="stylesheet" href="/css/solo.css" />
+    <script src="/scripts/jquery.js"></script>
+    <link rel="canonical" href="" />
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+      });
+    </script>
+    <script
+      type="text/javascript"
+      async
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
+    ></script>
+  </head>
+  <body class="post">
+    <article>
+      <div class=".container">
+        <a class="back_post" href="../" onclick=“window.open(‘../’, ‘_self’);”><b><</b></a>
+        <h1><a href="./"></a></h1>
+        <h1 id="initializing-adding-commiting-and-reseting-locally">Initializing, adding, commiting and reseting locally</h1>
+
+<p><strong>Remove file that was added but not yet commited</strong> <br />
+<code class="language-plaintext highlighter-rouge">git reset &lt;file&gt;</code></p>
+
+<h1 id="branches">Branches</h1>
+
+<p><strong>Switch to existing other branch</strong><br />
+<code class="language-plaintext highlighter-rouge">git checkout &lt;branch&gt;</code></p>
+
+<p><strong>Create and switch to new branch</strong><br />
+<code class="language-plaintext highlighter-rouge">git checkout -b &lt;branch&gt;</code></p>
+
+<p><strong>list exisiting branches</strong><br />
+<code class="language-plaintext highlighter-rouge">git branch -r</code></p>
+
+<h1 id="remote-stuff">Remote stuff</h1>
+
+<p><strong>show remote information of repository</strong><br />
+<code class="language-plaintext highlighter-rouge">git remote show origin</code></p>
+
+<p><strong>add remote origin to local repository</strong><br />
+<code class="language-plaintext highlighter-rouge">git remote add origin git@github.com:&lt;REPO&gt;</code> <br />
+<em>make sure to add the <code class="language-plaintext highlighter-rouge">ssh</code> url, otherwise <code class="language-plaintext highlighter-rouge">ssh</code> autentification will not work when <code class="language-plaintext highlighter-rouge">pushing</code></em></p>
+
+<p><strong>remove remote origin from local repository</strong> <br />
+<code class="language-plaintext highlighter-rouge">git remote remove origin</code></p>
+
+
+      </div>
+    </article>
+    <script src="/scripts/rrssb.min.js"></script>
+  </body>
+</html>

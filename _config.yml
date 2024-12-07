@@ -49,7 +49,7 @@ collections:
   me:
     output: true
   
-  direct:
+  git_summary:
     output: true
 
 theme: jekyll-theme-minimal
