@@ -21,8 +21,14 @@ published: true
 `git checkout -b <branch>`
 
 
-**list exisiting branches**\
+**list exisiting *local* branches**\
+`git branch`
+
+**list exisiting *remote* branches**\
 `git branch -r`
+
+**list exisiting *local* and *remote* branches**\
+`git branch -a`
 
 
 
